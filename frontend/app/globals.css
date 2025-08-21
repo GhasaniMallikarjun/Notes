@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-[#f7f3e6] text-[#3a2c24] antialiased; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.container { @apply max-w-5xl mx-auto px-6; }
+.btn { @apply inline-flex items-center justify-center rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-100 active:scale-[0.99] transition; }
+.input { @apply w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-sky-200; }
+.card { @apply rounded-2xl border border-[#8b6a59] bg-white shadow-md; }
