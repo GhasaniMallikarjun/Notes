@@ -126,4 +126,24 @@ It provides user authentication and CRUD operations for notes.
 - SQLAlchemy ORM optimized with indexes on `user_email` & `note_id`.  
 - Passwords hashed with **bcrypt** (secure, tested).  
 - JWT ensures quick validation without DB lookups.  
-- For testing performance: `ab` (ApacheBench) or `locust` can be used.  
+- For testing performance: `ab` (ApacheBench) or `locust` can be used.
+- 
+
+
+
+
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](https://drive.google.com/uc?export=view&id=1l-YQg_ofKg0w8hOoyeULCVFQBZ7NzpbT)
+
+### 🏠 Dashboard
+![Dashboard](https://drive.google.com/uc?export=view&id=1TQAuySArGiCn7GzIFHTJsmXSukRdQxO4)
+
+### 📝 Notes View
+![Notes View](https://drive.google.com/uc?export=view&id=1oh8ae1Yu0kBGTMEEkYf68dukfRfyQlFI)
+
+### ⚙️ Settings
+![Settings](https://drive.google.com/uc?export=view&id=1NID_Memf2tykdkufmqACqUObwZRfgiDd)
+
